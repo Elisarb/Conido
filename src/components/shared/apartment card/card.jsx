@@ -2,8 +2,8 @@ import React from 'react';
 import "../apartment card/card.scss";
 import iconBed from "../../../assets/icon_bed.svg";
 import iconMap from "../../../assets/icon_map.svg";
-import iconFloor from "../../../assets/icon_floor.svg"
-import iconHeart from "../../../assets/heart.svg"
+import iconFloor from "../../../assets/icon_floor.svg";
+import Heart from '../heart/heart';
 
 
 const ApartmentCard = (props) => {
@@ -41,8 +41,8 @@ const ApartmentCard = (props) => {
             </div>
             </div>
 
-            <div className='favorite-heart'>
-                <img src={iconHeart} alt="favorite heart"/>
+            <div>
+                <Heart></Heart>
             </div>
             
         </div>

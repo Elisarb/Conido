@@ -1,0 +1,44 @@
+.favorite-heart{
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:25px;
+    height:25px;
+
+}
+
+.cls-1{fill:#7d9177;}
+.cls-2{fill:transparent;}
+
+.favorite-heart:hover{
+    .cls-1{
+        fill:#f2416b;
+    }
+    .cls-2{
+        fill:#f2416b;
+    }
+}
+
+[id="heart"] {
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:25px;
+    width:25px;
+    margin:0px;
+    opacity: 0;
+    
+  }
+  
+  
+  [id="heart"]:checked + label {
+
+    .cls-1{
+        fill:#f2416b;
+    }
+    .cls-2{
+        fill:#f2416b;
+    }
+  }
+
+  

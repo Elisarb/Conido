@@ -1,12 +1,12 @@
 import React from 'react';
-import  "../contact/contact.scss";
+import  "./contact.scss";
 import contactImg from "../../assets/contact-img.png";
-import ContactForm from '../shared/contact form/form';
+import ContactForm from '../../components/shared/contact form/form';
 
 const Contact = () => {
 
     return(
-        <div className="contact-page">
+        <div className="contact-page" id="contact">
             <h1>Contacto</h1>
             <div className="contact-container">
                 <div className="contact-image-container">

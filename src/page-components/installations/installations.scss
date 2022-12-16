@@ -27,14 +27,14 @@
     }
 
     .installations-text{
-        width:100%;
+        width:80%;
         display:flex;
         justify-content: space-between;
         height:50px;
+        margin:0px;
     }
 
     .installations-includes{
-        margin: 0px 50px;
         font-family: EX-bold;
         color: var(--olive);
         font-size: 22px;
@@ -46,7 +46,6 @@
         font-family: inter-regular;
         color: black;
         font-size: 14px;
-        margin: 0px 50px;
         display: flex;
         align-items: flex-end;
     }

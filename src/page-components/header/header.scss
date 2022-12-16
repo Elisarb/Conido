@@ -2,6 +2,12 @@
     height:100px;
     display: flex;
     align-items: center;
+    animation: translate 2s linear;
+
+    @keyframes translate {
+        0%{transform: translate(0, -150%);}
+        100%{transform:translate(0, 0);}
+    }
 
     .nav-header{
         display:flex;
@@ -11,9 +17,10 @@
         margin-right:50px;
     }
 
-    span{
+    .header-links{
         font-family: inter-regular;
         font-size: 100%;
+        text-decoration: none;
         color: white;
         height:60px;
         text-align: center;
@@ -29,6 +36,10 @@
 
     .expandArrow{
         margin:5px;
+    }
+
+    .language-select{
+        color:white;
     }
 
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import "../gallery/gallery.scss"
-import Carousel from '../shared/carousel/carousel';
+import "./gallery.scss"
+import Carousel from '../../components/shared/carousel/carousel';
 import ImageGallery1 from '../../assets/gallery images/gallery1.png';
 import ImageGallery2 from '../../assets/gallery images/gallery2.png';
 import ImageGallery3 from '../../assets/gallery images/gallery3.png';
@@ -24,7 +24,7 @@ const Gallery = () => {
     
 
     return(
-        <div className='gallery-page'>
+        <div className='gallery-page' id="gallery">
             <h1>Galería</h1>
             <p className="descr-gallery">Entra y elige la que mejor se adapte a tus necesidades y a tus sueños.</p>
             <Carousel

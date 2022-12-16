@@ -21,7 +21,7 @@ const ContactForm = (props) => {
                 <input type="text" id="contact-email"></input>
             </div>
             <div className='contact-input contact-input--bigger'>
-                <label htmlFor="contact-message" className='label-input'>Email</label>
+                <label htmlFor="contact-message" className='label-input'>Mensaje</label>
                 <textarea type="text" id="contact-message"/>
             </div>
 

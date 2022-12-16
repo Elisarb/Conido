@@ -9,11 +9,7 @@
     display:flex;
     justify-content: center;
 
-    .favorite-heart{
-        position:absolute;
-        right:20px;
-        top:20px;
-    }
+    
 
     .house-image{
         width:184px;
@@ -94,8 +90,5 @@
         color:var(--dark-olive);
     }
 
-    .favorite-heart:hover{
-        background-color: red;
-    }
-    
+
 }

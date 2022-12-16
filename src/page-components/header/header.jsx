@@ -1,7 +1,7 @@
 import React from 'react';
-import "../header/header.scss";
+import "./header.scss";
 import logoWhite from '../../assets/conido-logo--white.svg';
-import expandArrow from '../../assets/expand-arrow.svg'
+import expandArrow from '../../assets/arrows/expand-arrow.svg'
 import profilepic from '../../assets/profile.svg'
 
 const Header = () => {
@@ -11,30 +11,30 @@ const Header = () => {
             <img src={logoWhite} className="logo-bar" alt="main logo"/>
             <nav className="nav-header">
                 {/* <svg xmlns={logoWhite}/> */}
-                <span>Ubicaciones
+                <a href="#locations" className="header-links">Ubicaciones
                     <img src={expandArrow} className="expandArrow" alt="expand arrow"/>
-                </span>
-                <span>Apartamentos</span>
-                <span>Galería</span>
-                <span>Sobre Nosotros
+                </a>
+                <a href="#apartments" className="header-links">Apartamentos</a>
+                <a href="#gallery" className="header-links">Galería</a>
+                <a href="#installations" className="header-links">Sobre Nosotros
                     <img src={expandArrow} className="expandArrow" alt="expand arrow"/>
-                </span>
+                </a>
                 <button className="buttons-conido">
-                    <span>
+                    <a href="#contact" className="header-links">
                     Contáctanos
-                    </span>
+                    </a>
                 </button>
                 <button className="buttons-conido buttons-conido--transparent">
-                    <span>
+                    <a href="#contact" className="header-links">
                     Reserva Ya
-                    </span>
+                    </a>
                 </button>
                 <div>
                     <img src={profilepic} className="" alt="profile"/>
                 </div>
 
                 <div>
-                    <span>ES</span>
+                    <span className="language-select">ES</span>
                     <img src={expandArrow} className="expandArrow" alt="expand arrow"/>
                 </div>
             </nav>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../locations/locations.scss"
-import LocationCard from '../shared/location card/card';
+import LocationCard from '../../components/shared/location card/card.jsx';
 import barcelona from '../../assets/Barcelona.png';
 import madrid from '../../assets/Madrid.png';
 import bilbao from '../../assets/Bilbao.png';

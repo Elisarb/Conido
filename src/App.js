@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.scss';
-import Main from './components/main/main';
-import Locations from './components/locations/locations';
-import Apartments from './components/apartments/apartments';
-import Installations from './components/installations/installations';
-import Gallery from './components/gallery/gallery';
-import Contact from './components/contact/contact';
-import Footer from './components/footer/footer';
+import Main from './page-components/main/main';
+import Locations from './page-components/locations/locations';
+import Apartments from './page-components/apartments/apartments';
+import Installations from './page-components/installations/installations';
+import Gallery from './page-components/gallery/gallery';
+import Contact from './page-components/contact/contact';
+import Footer from './page-components/footer/footer';
 import Separator from './components/shared/separator/separator';
 
 function App() {

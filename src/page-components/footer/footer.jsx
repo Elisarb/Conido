@@ -1,5 +1,5 @@
 import React from 'react';
-import "../footer/footer.scss";
+import "./footer.scss";
 import facebooklogo from '../../assets/social media logos/facebook.svg';
 import twitterlogo from '../../assets/social media logos/twitter.svg';
 import linkedinlogo from '../../assets/social media logos/linkedin.svg';
@@ -37,10 +37,18 @@ const Footer = () => {
                 <div className='footer-center-column'>
                     <div className="footer-column">
                         <div className="footer-logos">
-                            <img src={facebooklogo} alt="facebook logo"/>
-                            <img src={twitterlogo} alt="twitter logo"/>
-                            <img src={instagramlogo} alt="instagram logo"/>
-                            <img src={linkedinlogo} alt="linkedin logo"/>
+                            <a href="https://www.linkedin.com/in/elisarb/" target="blank">
+                                <img src={facebooklogo} alt="facebook logo"/>
+                            </a>
+                            <a href="https://www.linkedin.com/in/elisarb/" target="blank">
+                                <img src={twitterlogo} alt="twitter logo"/>
+                            </a>
+                            <a href="https://www.linkedin.com/in/elisarb/" target="blank">
+                                <img src={instagramlogo} alt="instagram logo"/>
+                            </a>
+                            <a href="https://www.linkedin.com/in/elisarb/" target="blank">
+                                <img src={linkedinlogo} alt="linkedin logo"/>
+                            </a>
                         </div>
                         <p className="footer-plain-text"><a href="/" className="footer-links footer-links--inline">Aviso legal</a> |  <a href="/" className="footer-links footer-links--inline">Protección de datos</a> | <a href="/" className="footer-links footer-links--inline">Cookies</a>
                         </p>

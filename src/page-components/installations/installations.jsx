@@ -1,7 +1,7 @@
 import React from 'react';
-import "../installations/installations.scss"
-import rightArrow from '../../assets/arrow-right.svg'
-import InstallationCard from '../shared/installations card/card';
+import "./installations.scss"
+import rightArrow from '../../assets/arrows/arrow-right.svg'
+import InstallationCard from '../../components/shared/installations card/card';
 import included1 from '../../assets/included1.png';
 import included2 from '../../assets/included2.png';
 import included3 from '../../assets/included3.png';
@@ -10,7 +10,7 @@ import included4 from '../../assets/included4.png';
 const Installations = () => {
 
     return(
-        <div className='installations-page'>
+        <div className='installations-page' id="installations">
             <h1>Instalaciones</h1>
             <p className="descr-installations">La vida, como nueva.<br/> Exploración global sin complicaciones. Sólo tienes que aparecer y empezar a vivir tu mejor vida.</p>
             <div className='installations-container'>

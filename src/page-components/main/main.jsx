@@ -1,9 +1,9 @@
 import React from 'react';
-import "../main/main.scss"
+import "./main.scss"
 import Header from '../header/header'
 import frontImage from '../../assets/CTL_info_cocina_redu.png'
 import logoWhite from '../../assets/conido-logo--white.svg';
-import arrowDown from '../../assets/arrow-down.svg'
+import arrowDown from '../../assets/arrows/arrow-down.svg'
 
 const Main = () => {
 
@@ -14,12 +14,18 @@ const Main = () => {
             <div className="main-introduction">
                 <img src={logoWhite} className="main-logo" alt="main logo Conido"/>
                 <div className='buttons'>
-                    <button className='buttons-conido buttons-conido--big'>
+                    <a href="#contact">
+                        <button className='buttons-conido buttons-conido--big'>
                         Contáctanos
                     </button>
+                    </a>
+                    
+                    <a href="#contact">
                     <button className='buttons-conido buttons-conido--big'>
                         Reserva Ya
                     </button>
+                    </a>
+                    
                 </div>
 
                 <div>

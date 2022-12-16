@@ -1,6 +1,6 @@
 import React from 'react';
-import "../apartments/apartments.scss"
-import ApartmentCard from '../shared/apartment card/card';
+import "./apartments.scss"
+import ApartmentCard from '../../components/shared/apartment card/card';
 import House1 from '../../assets/houses/house1.png';
 import House2 from '../../assets/houses/house2.png';
 import House3 from '../../assets/houses/house3.png';
@@ -13,7 +13,7 @@ import SearchIcon from '../../assets/icons/search_icon.svg'
 const Apartments = () => {
 
     return(
-        <div className='apartments-page'>
+        <div className='apartments-page' id="apartments">
             <h1>Apartamentos</h1>
             <nav className="nav-bar">
                 <div className='search-inputs'>
