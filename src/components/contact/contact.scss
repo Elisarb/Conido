@@ -1,0 +1,38 @@
+.contact-page{
+
+
+    h1{
+        font-family: EX-semibold;
+        font-size: 80px;
+        color: var(--olive);
+        text-align: center;
+        margin-bottom:15px;
+        margin-top:0px;
+    }
+    .contact-container{
+        display:flex;
+        justify-content: center;
+        margin:20px 0px;
+    }
+
+    .contact-image{
+        height:583px;
+        width:322px;
+    }
+
+    .contact-image-container{
+        position:relative;
+        width:fit-content;
+        margin:0px 20px;
+    }
+
+    .contact-image-text{
+        position:absolute;
+        top:0px;
+        left:0px;
+        width:calc(100% - 100px);
+        padding:50px;
+        color:white;
+        font-family: Inter-regular;
+    }
+}

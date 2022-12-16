@@ -1,0 +1,39 @@
+.App{
+  margin:0px;
+  padding:0px;
+}
+.buttons-conido{
+  height:36px;
+  border-radius: 25px;
+  border:0px solid black;
+  color:white;
+  background-color: var(--olive);
+
+  &--transparent{
+    background: transparent;
+    border:1px solid white;
+  }
+
+  &--white{
+    background-color: white;
+    color:var(--olive);
+  }
+
+  &--big{
+    width:161px;
+    height:54px;
+    // background: -webkit-linear-gradient(left, white , var(--olive));
+    font-family: inter-regular;
+    font-size: 22px;
+    margin:25px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

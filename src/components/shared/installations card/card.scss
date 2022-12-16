@@ -1,0 +1,27 @@
+.installation-card{
+    width: 304px;
+    height: 368px;
+    border:1px solid var(--grey);
+    border-radius: 25px;
+    margin:20px;
+
+    .included-text{
+        margin:20px;
+    }
+
+    .included-title{
+        color:var(--olive);
+        font-size:18px;
+        font-family: Inter-bold;
+        margin: 5px 0px;
+
+    }
+
+    .included-description{
+        font-size: 15px;
+        font-family: Inter-regular;
+        line-height: 1.5}
+
+
+
+}

@@ -1,0 +1,44 @@
+.visible-slides .card .face.face2 .content a:hover{
+    background: rgb(18, 18, 18) ;
+    color: whitesmoke; 
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  }
+  
+  .inner-carousel{
+    overflow: visible!important;
+  }
+  
+  .container-carousel{
+    padding-top: 0px!important;
+    width:100vw;
+    overflow: hidden;
+    position:relative;
+    margin-bottom:50px;
+  }
+
+  .carousel-buttons{
+    position: absolute!important;
+    top:50%!important;
+
+    &-left{
+      left:50px!important;  
+    }
+    
+
+    &-right{
+        right:50px!important;
+    }
+  }
+
+  .images-gallery{
+    width:322px;
+    height:247px;
+    border-radius: 25px;
+    margin:20px;
+  }
+
+  .visible-slides .card .face.face1 .content{
+    opacity: 1;
+  }
+
+ 

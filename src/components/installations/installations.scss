@@ -1,0 +1,54 @@
+.installations-page{
+    width:100%;
+    background-color: white;
+    overflow: hidden;
+    h1{
+        font-family: EX-semibold;
+        font-size: 80px;
+        color: var(--olive);
+        text-align: center;
+        margin-bottom:15px;
+        margin-top:20px;
+    }
+
+    .descr-installations{
+        text-align: center;
+        color:black;
+        font-family: inter-regular;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .installations-container{
+        display:flex;
+        flex-wrap:wrap;
+        margin:20px;
+        justify-content: center;
+    }
+
+    .installations-text{
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        height:50px;
+    }
+
+    .installations-includes{
+        margin: 0px 50px;
+        font-family: EX-bold;
+        color: var(--olive);
+        font-size: 22px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .installations-more{
+        font-family: inter-regular;
+        color: black;
+        font-size: 14px;
+        margin: 0px 50px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+}

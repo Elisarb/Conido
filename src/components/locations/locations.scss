@@ -1,0 +1,29 @@
+.locations-page{
+    width:100%;
+    background-color: white;
+    overflow: hidden;
+
+
+    h1{
+        font-family: EX-semibold;
+        font-size: 80px;
+        color: var(--olive);
+        text-align: center;
+        margin-bottom:15px;
+        margin-top:50px;
+    }
+
+    .descr-locations{
+        text-align: center;
+        color:black;
+        font-family: inter-regular;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .locations-container{
+        display:flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+}

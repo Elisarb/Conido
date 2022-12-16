@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding:0px;
+  font-size:1em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --olive: #A6BF9D;
+  --light-olive: #a6bf9d49;
+  --dark-olive: #7D9077;
+  --grey: #BDBDBD;
+  --dark-grey:#616161;
+  --light-grey:#F8F8F8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: inter-regular;
+  src: url(./assets/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: inter-light;
+  src: url(./assets/Inter/static/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: inter-bold;
+  src: url(./assets/Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: inter-thin;
+  src: url(./assets/Inter/static/Inter-Thin.ttf);
+}
+
+@font-face {
+  font-family: EX-regular;
+  src: url(./assets/Expletus_Sans/static/ExpletusSans-Regular.ttf)
+}
+@font-face {
+  font-family: EX-semibold;
+  src: url(./assets/Expletus_Sans/static/ExpletusSans-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: EX-bold;
+  src: url(./assets/Expletus_Sans/static/ExpletusSans-Bold.ttf)
+}

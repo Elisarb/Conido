@@ -1,0 +1,101 @@
+.apartment-card{
+    width:511px;
+    height:242px;
+    position:relative;
+    background-color: var(--light-olive);
+    border-radius:25px;
+    overflow: hidden;
+    margin:50px;
+    display:flex;
+    justify-content: center;
+
+    .favorite-heart{
+        position:absolute;
+        right:20px;
+        top:20px;
+    }
+
+    .house-image{
+        width:184px;
+        height:100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .house-privacy{
+        color: var(--grey);
+        font-family: Inter-regular;
+        font-size:14px;
+    }
+
+    .house-address{
+        color:var(--dark-olive);
+        font-family: Inter-bold;
+        font-size: 22px;
+        margin-top:5px;
+        height:28px;
+    }
+
+    .house-descr-container{
+        width:327px;
+        height:100%;
+    }
+
+    .house-descr{
+        margin:20px;
+        height:calc(100% - 40px)
+    }
+
+    .house-disponibility{
+        width:inherit;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:40px;
+    }
+
+    .house-specifications{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        font-family: Inter-Regular;
+        color: var(--dark-olive);
+        font-size: 14px;
+    }
+    .house-disponibility-date{
+        width:50%;
+        p{
+            margin:5px 0px;
+            color:var(--grey);
+            font-family: Inter-regular;
+            font-size:14px;
+        }
+    }
+
+    .date-text{
+        color:var(--dark-olive)!important;
+    }
+
+    .house-disponibility{
+        height:50px;
+    }
+    .house-price-container{
+        width:50%;
+        text-align: right;
+        p{
+            margin:5px 0px;
+            color:var(--dark-grey);
+        }
+    }
+
+    .house-price{
+        font-size:18px;
+        font-family: Inter-bold;
+        color:var(--dark-olive);
+    }
+
+    .favorite-heart:hover{
+        background-color: red;
+    }
+    
+}

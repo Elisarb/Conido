@@ -1,0 +1,129 @@
+.apartments-page{
+  width:100%;
+  background-color: white;
+
+  h1{
+      font-family: EX-semibold;
+      font-size: 80px;
+      color: var(--olive);
+      text-align: center;
+      margin-bottom:15px;
+      margin-top:25px;
+  }
+
+  .centered-container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-wrap: wrap;
+  }
+  .nav-bar{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .apartments-container{
+      display:flex;
+      justify-content: center;
+      padding-top: 100px;
+
+  }
+
+  .apartments-list{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .input-search{
+      border-radius: 25px;
+      border:0px solid white;
+      background-color: var(--light-olive);
+      height:42px;
+      width:260px;
+      padding-left:20px;
+      margin:0px 20px;
+  }
+
+  .input-city{
+    pointer-events: none;
+    color: var(--dark-olive);
+  }
+
+  .search-inputs{
+    width:60%;
+    margin:0px 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .react-switch-checkbox {
+      height: 0;
+      width: 0;
+      visibility: hidden;
+    }
+    
+    .react-switch-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      width: 40px;
+      height: 20px;
+      background: var(--grey);
+      border:1px solid var(--dark-grey);
+      border-radius: 100px;
+      position: relative;
+      transition: background-color .2s;
+    }
+    
+    .react-switch-label .react-switch-button {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 15px;
+      height: 15px;
+      border-radius: 45px;
+      transition: 0.2s;
+      background: black;
+    }
+    
+    .react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+      left: calc(100% - 2px);
+      transform: translateX(-100%);
+      background-color: white;
+
+    }
+
+    .react-switch-checkbox:checked + .react-switch-label{
+      background: green!important;
+
+    }
+
+    .react-switch-label:active .react-switch-button {
+      width: 60px;
+    }
+
+    .search-btn{
+      height:42px;
+      width:82px;
+      border:0px;
+      background-color: var(--light-grey);
+      color:var(--dark-olive);
+      cursor:pointer;
+    }
+
+    .switch-container{
+      display:flex;
+      width:140px;
+      justify-content: space-between;
+      color: var(--dark-olive)
+    }
+
+    .search-icon{
+      cursor: pointer;
+      margin:0px 20px;
+    }
+
+}
